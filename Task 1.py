@@ -21,8 +21,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 
 
-2. Create a variable of value type complex and swap it with another variable
-whose value is an integer.
+'''2. Create a variable of value type complex and swap it with another variable
+whose value is an integer.'''
 
 Last login: Thu Oct  1 10:47:33 on ttys000
 dhavaladhvaryu@Dhavals-Air ~ % python3
@@ -44,8 +44,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 
 
-3. Swap two numbers using third variable as result name and do the same task
-without using any third variable.
+'''3. Swap two numbers using third variable as result name and do the same task
+without using any third variable'''
 
 
 >>> a=30
@@ -62,17 +62,17 @@ without using any third variable.
 
 
 
-4. Write a program to print the value given by the user by using both Python 2.x
-and Python 3.x Version.
+'''4. Write a program to print the value given by the user by using both Python 2.x
+and Python 3.x Version.'''
 
 enter_value =input("Enter value 2.x")
 
-5. Write a program to complete the task given below:
+'''5. Write a program to complete the task given below:
 
 ● Ask user to enter any 2 numbers in between 1-10 and add both of
 them to another variable call z.
 ● Use z for adding 30 into it and print the final result by using
-variable result.
+variable result.'''
 
 
 X= int(input("enter the first value"))
@@ -81,8 +81,8 @@ Z= X+Y
 Z= Z+30
 print(Z)
 
-6. Write a program to check the data type of the entered values. HINT: Printed
-output should say - The input value data type is : int/float/string/etc
+'''6. Write a program to check the data type of the entered values. HINT: Printed
+output should say - The input value data type is : int/float/string/etc'''
 
 a,b,c = 12,5.80,"Dhaval"
 print(type(b))
