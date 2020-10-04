@@ -95,3 +95,119 @@ while True:
     else:
         print("Good Going")
         continue
+    
+'''5.  Write a program in Python which will find all such numbers which are divisible
+by 7 but are not a multiple of 5, between 2000 and 3200.'''
+
+for x in range (2000,3201):
+    if x % 7 == 0 and x % 5 != 0:
+        print(x)
+
+
+'''6. What is the output of the following code examples?'''
+
+#1. TypeError: 'int' object is not iterable
+#2.  0
+#   error
+#   1
+#   error
+#   2
+#   error (Continously running)
+
+#3. 0
+#    1
+#    2
+#    3
+#    4
+
+'''7. Write a program that prints all the numbers from 0 to 6 except 3 and 6.
+Expected output: 0 1 2 4 5
+Note: Use ‘continue’ statement'''
+
+for i in range(6):
+    if (i == 3 or i == 6):
+        continue
+    print(i)
+
+'''8. Write a program that accepts a string as an input from user and calculate the
+number of digits and letters.
+Expected output: consul12'''
+
+x = input("Enter a string: ")
+d = l = 0
+for i in x:
+    if i.isdigit():
+        d = d+1
+    elif i.isalpha():
+        l = l+1
+    else:
+        pass
+print("# of Letters: ",l)
+print("# of Digits: ",d)
+Letters 6
+Digits 2
+
+
+'''Read the two parts of the question below:
+● Write a program such that it asks users to “guess the lucky number”. If the
+correct number is guessed the program stops, otherwise it continues forever.
+● Modify the program so that it asks users whether they want to guess again
+each time. Use two variables, ‘number’ for the number and ‘answer’ for the
+answer to the question whether they want to continue guessing. The
+program stops if the user guesses the correct number or answers “no”. ( The
+program continues as long as a user has not answered “no” and has not
+guessed the correct number)'''
+
+#Part1
+while True:
+    x = int(input("Guess the Lucky Number:"))
+    y = 20
+    if x==y:
+        break
+    else:
+        ans = str(input("Try Again"))
+    
+
+#Part2
+while True:
+    x = int(input("Guess the Lucky Number:"))
+    y = 20
+    if x==y:
+        break
+    else:
+        ans = str(input("Try Again? (yes/no):"))
+        if ans == 'no' :
+            break
+        else:
+            continue
+
+
+
+
+
+'''10. Write a program that asks five times to guess the lucky number. Use a while loop
+and a counter, such as
+counter=1
+
+While counter &lt;= 5:
+print(“Type in the”, counter, “number”
+counter=counter+1
+
+The program asks for five guesses (no matter whether the correct number was
+guessed or not). If the correct number is guessed, the program outputs “Good
+guess!”, otherwise it outputs “Try again!”. After the fifth guess it stops and prints
+“Game over!”.'''
+
+#answer for 10 and 11
+
+c = 1
+y = 82
+
+while c <= 5:
+    x = int(input("Guess the Lucky Number:"))
+    c = c + 1
+    if x==y:
+        print("Good Guess")
+        break
+    else:
+        print("Try Again")
