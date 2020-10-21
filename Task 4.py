@@ -1,7 +1,9 @@
 ''' TASK FOUR: FUNCTIONS '''
 ''' QUESTION1- Write a program to reverse a string '''
 
+mystr = "Dhaval"
 
+print(mystr[::-1])
 
 ''' QUESTION2- Write a function that accepts a string and calculate the number of uppercase letters
 and lowercase letters. '''
