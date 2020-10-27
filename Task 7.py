@@ -104,8 +104,13 @@ hour and 50 min)+(1 hr and 20 min) is (4 hr and 10 min)
 Make a method displayTime which should print the time.
 
 Make a method DisplayMinute which should display the total minutes in the Time.
-E.g.- (1 hr 2 min) should display 62 minute.
-6. Write a Person class with an instance variable, , and a constructor that takes an
+E.g.- (1 hr 2 min) should display 62 minute.'''
+
+
+
+
+
+ '''6. Write a Person class with an instance variable, , and a constructor that takes an
 integer, , as a parameter. The constructor must assign to after confirming the
 argument passed as is not negative; if a negative argument is passed as , the
 constructor should set to and print Age is not valid, setting age to 0.. In addition,
